@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+    <link rel="stylesheet" href="/styles.css">
+    <title>United States Educational Attainment</title>
+</head>
+<body>
+    <h1 id="title">USA Education Data</h1>
+    <h3 id="description">Percentage of adults age 25 and older with a bachelor's degree or higher (2010-2014)</h3>
+    <div id="tooltip"></div>
+    <svg id="canvas"></svg>
+
+    </svg>
+    
+    <svg id="legend">
+        <g>
+            <rect x="0" y="0" width="30" height="30" fill="#d9d9d9"></rect>
+            <text x="0" y="50">0-15%</text>
+        </g>
+        <g>
+            <rect x="60" y="0" width="30" height="30" fill="#b3b3b3"></rect>
+            <text x="55" y="50">15-30%</text>
+        </g>
+        <g>
+            <rect x="120" y="0" width="30" height="30" fill="#8c8c8c"></rect>
+            <text x="115" y="50">30-45%</text>
+        </g>
+        <g>
+            <rect x="180" y="0" width="30" height="30" fill="#666666"></rect>
+            <text x="175" y="50">45-60%</text>
+        </g>
+        <g>
+            <rect x="240" y="0" width="30" height="30" fill="#404040"></rect>
+            <text x="235" y="50">60-75%</text>
+        </g>
+        <g>
+            <rect x="300" y="0" width="30" height="30" fill="#0a0a0a"></rect>
+            <text x="295" y="50">75-100%</text>
+        </g>
+    </svg>
+    
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<script src="script.js"></script>
+</html>
